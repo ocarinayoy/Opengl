@@ -228,7 +228,7 @@ int main(int argc, char *argv[]) {
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
     glutInitWindowPosition (50, 100);
     glutInitWindowSize (800, 600); // Establece alto y ancho de la pantalla
-    glutCreateWindow ("Uso de LOOK AT");
+    glutCreateWindow ("Lookat XZ rotation");
     Inicializar();
     glutDisplayFunc(Plano);
     glutKeyboardFunc(Teclado);
